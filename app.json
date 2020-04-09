@@ -20,7 +20,7 @@
   "logo": "https://raw.githubusercontent.com/erxes/erxes/master/ui/public/images/logo-dark.png",
   "success_url": "/",
   "env": {
-    "PORT": {
+    "PORT_WORKERS": {
       "description": "A port number that erxes api will be running on",
       "value": "3700"
     },
@@ -31,6 +31,18 @@
     "PROCESS_NAME": {
       "description": "workers process name (don't change it)",
       "value": "workers"
+    },
+    "REDIS_HOST": {
+      "description": "erxes API REDIS_HOST",
+      "value": "copy it from erxes-api REDIS_HOST"
+    },
+    "REDIS_PORT": {
+      "description": "erxes API REDIS_PORT",
+      "value": "copy it from erxes-api REDIS_PORT"
+    },
+    "REDIS_PASSWORD": {
+      "description": "erxes API REDIS_PASSWORD",
+      "value": "copy it from erxes-api REDIS_PASSWORD"
     }
   },
   "addons": [],

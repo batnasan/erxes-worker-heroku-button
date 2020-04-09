@@ -22,7 +22,7 @@ fetch_erxes_api() {
     git clone --quiet $repo_url $build_dir
     cd $build_dir && git checkout --quiet develop
     
-    echo "web: npm start-workers" > $proc_file
+    echo "web: node dist/workers" > $proc_file
 }
 
 fetch_erxes_api

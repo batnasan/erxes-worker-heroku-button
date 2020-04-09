@@ -11,7 +11,7 @@ bp_dir=$(dirname $(dirname $0))
 proc_file="Procfile"
 
 fetch_erxes_api() {
-    local widgets_release_url="https://github.com/erxes/erxes-api.git"
+    local repo_url="https://github.com/erxes/erxes-api.git"
     
     if [ -d $build_dir ]; then
         rm -rf $build_dir
@@ -19,7 +19,7 @@ fetch_erxes_api() {
     mkdir -p $build_dir
     echo "-----> Created build_dir $build_dir"
     
-    git clone --quiet $widgets_release_url $build_dir
+    git clone --quiet $repo_url $build_dir
     cd $build_dir && git checkout --quiet develop
     
     echo "web: npm start-workers" > $proc_file

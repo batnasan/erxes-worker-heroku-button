@@ -45,12 +45,7 @@
       "value": "copy and paste from erxes-api JWT_TOKEN_SECRET"
     }
   },
-  "addons": [
-    {
-      "plan": "mongolab:sandbox",
-      "as": "MONGO"
-    }
-  ],
+  "addons": [],
   "buildpacks": [
     {
       "url": "https://github.com/batnasan/heroku-buildpack-subdir"

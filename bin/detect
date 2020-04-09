@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+build_dir=$1
+
+echo 'erxes api worker'
+exit 0

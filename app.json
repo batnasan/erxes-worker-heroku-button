@@ -27,6 +27,10 @@
     "MONGO_URL": {
       "description": "Erxes API MONGO_URL",
       "value": "MONGO_URL"
+    },
+    "PROCESS_NAME": {
+      "description": "workers process name (don't change it)",
+      "value": "workers"
     }
   },
   "addons": [],

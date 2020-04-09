@@ -43,6 +43,10 @@
     "REDIS_PASSWORD": {
       "description": "erxes API REDIS_PASSWORD",
       "value": "copy it from erxes-api REDIS_PASSWORD"
+    },
+    "JWT_TOKEN_SECRET": {
+      "description": "JWT TOKEN SECRET",
+      "value": "copy it from erxes-api JWT_TOKEN_SECRET"
     }
   },
   "addons": [],

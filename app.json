@@ -32,7 +32,10 @@
   "addons": [],
   "buildpacks": [
     {
-      "url": "https://github.com/batnasan/heroku-buildpack-subdir"
+      "url": "https://github.com/batnasan/erxes-worker-heroku-button"
+    },
+    {
+      "url": "https://github.com/batnasan/heroku-buildpack-nodejs"
     }
   ]
 }
